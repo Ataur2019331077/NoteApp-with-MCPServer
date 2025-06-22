@@ -1,0 +1,17 @@
+[project]
+name = "notes-app"
+version = "0.1.0"
+description = "Add your description here"
+readme = "README.md"
+requires-python = ">=3.11"
+dependencies = [
+    "fastapi>=0.115.12",
+    "langchain-mcp-adapters>=0.1.0",
+    "langchain[openai]>=0.3.25",
+    "langgraph>=0.4.5",
+    "litellm>=1.68.0",
+    "mcp[cli]>=1.7.1",
+    "pymongo>=4.12.1",
+    "smolagents[mcp]>=1.14.0",
+    "uvicorn>=0.34.2",
+]
